@@ -1,0 +1,92 @@
+*{
+    /* background-color: red; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+
+
+.herocontainer{
+    background-color:white;
+    height: 118px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+    
+}
+.logo {
+    width: 240.95px;
+    height:37.48px;
+    display: flex;
+    justify-content: center;
+   align-self: center;
+   
+}
+.navbaritems{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+   
+   
+
+
+}
+.nav-link{
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    float: right;
+  color:black;
+  text-align: justify;
+  padding: 30px 50px ;
+  text-decoration: none;
+  font-size: 17px;
+  
+}
+
+.headercontainer{
+    position: relative;
+    text-align: center;
+   
+}
+.centered {
+    position: absolute;
+    top: 35%;
+    left: 8%;
+    /* transform: translate(-50%, -50%);*/ 
+    color: white;
+   font-size: 40px;
+   
+}
+.headback{
+    width: auto;
+    height: 759.64px;
+    
+
+}
+.walk{
+    position: absolute;
+    display: flex;
+}
+.img1{
+    width: 853px;
+    height: 610px;
+}
+.container-walk{
+    background-color: black;
+    color: white;
+    width: 587px;
+   
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    padding: 50px ;
+}
